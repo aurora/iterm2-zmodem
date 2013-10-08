@@ -50,8 +50,8 @@ of the binaries of growlnotify and the Z-Modem tools. The pathes searched are:
     /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
     
 If the Z-Modem tools are installed in some unusual place, the path can be specified when 
-configuring the triggers using the LRZSZ_PATH envirnment variable, the "Parameters" setting
-of the trigger has to be modified in this case to become (eg):
+configuring the triggers using the LRZSZ_PATH environment variable, the "Parameters" setting
+of the trigger has to be modified in this case to become for example:
 
     Parameters:         LRZSZ_PATH=/opt/lrzsz/bin /usr/local/bin/iterm2-zmodem rz
 
@@ -64,7 +64,6 @@ additional details.
 
 Note, that sending files will overwrite the destination file on the local machine, if it
 already exists.
-
 
 ## Disclaimer
 
