@@ -38,7 +38,7 @@ function notify {
     if command -v growlnotify >/dev/null 2>&1; then
         growlnotify -a /Applications/iTerm.app -n "iTerm" -m "$msg" -t "File transfer"
     else
-        echo "# $msg"
+        echo "# $msg" | tr '\n' ' '
     fi
 }
 
